@@ -1,0 +1,47 @@
+*{
+    font-size: 12px;
+    width:350px;
+
+}
+
+.main{
+    background-color: #ff8101;
+    color:white;
+}
+
+
+.flex{
+    display:flex;
+}
+
+.title{
+    text-align: center;
+
+}
+
+.subtitle{
+
+
+}
+
+.input{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.btn{
+    margin-top: 3px;
+    margin-bottom:3px;
+    background-color: #ff8101 !important;
+}
+
+.myStyle {
+    display:block;
+}
+
+
+#userInfo{
+    background-color: #ff8101;
+    color:white;
+    height:fit-content;
+}

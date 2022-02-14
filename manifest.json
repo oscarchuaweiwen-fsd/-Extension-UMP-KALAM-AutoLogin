@@ -1,0 +1,20 @@
+{
+    "name": "UMP KALAM AutoLogin",
+    "description": "To help UMP Students and Staffs have better login experiences on AutoLogin feature with saved username and password.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["tabs", "scripting","storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "/images/ump_16.png",
+        "32": "/images/ump_32.png",
+        "48": "/images/ump_48.png",
+        "128": "/images/get_started128.png"
+      }
+    },
+    "host_permissions": ["https://kalam.ump.edu.my/login/*"]
+  }
